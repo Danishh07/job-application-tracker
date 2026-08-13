@@ -1,16 +1,43 @@
-# React + Vite
+# 🚀 Job Application Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive React application designed to help job seekers effortlessly track their job applications, interview stages, and outcomes. Built with a focus on clean UI/UX and seamless state management.
 
-Currently, two official plugins are available:
+**🔗 [Live Demo](https://job-application-tracker-azure-gamma.vercel.app/)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+* **Dashboard Analytics:** Visual summary of total applications, active interviews, and rejections.
+* **Full CRUD Operations:** Add, view, edit (status update), and delete job applications.
+* **Smart Search & Filter:** Quickly find specific applications by company name or role.
+* **Data Persistence:** Automatically saves all data to browser LocalStorage—never lose your progress on refresh.
+* **Export to CSV:** Download your entire application history in a single click for Excel/Sheets.
+* **Interactive UI:** Toast notifications for real-time user feedback on actions.
+* **Fully Responsive:** Beautifully designed using CSS Grid and Flexbox for mobile, tablet, and desktop views.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+* **Frontend Framework:** React.js (Vite)
+* **Styling:** Tailwind CSS
+* **State Management:** React Hooks (`useState`, `useEffect`)
+* **Alerts:** React Hot Toast
+* **Icons:** Lucide React (or standard SVGs)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 💻 Run Locally
+
+If you'd like to run this project on your local machine, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/YOUR_USERNAME/job-application-tracker.git](https://github.com/YOUR_USERNAME/job-application-tracker.git)
+
+2. **Navigate to the project directory:**
+   ```bash
+   cd job-application-tracker
+
+3. **Install dependencies:**
+   ```bash
+   npm install
+
+2. **Start the development server:**
+   ```bash
+   npm run dev
