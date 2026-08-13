@@ -38,6 +38,6 @@ If you'd like to run this project on your local machine, follow these steps:
    ```bash
    npm install
 
-2. **Start the development server:**
+4. **Start the development server:**
    ```bash
    npm run dev
